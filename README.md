@@ -1,5 +1,5 @@
 #
 #
-# This is a loe level programming langauge class from ALX.
+# This is a low level programming langauge class from ALX.
 #
 #
