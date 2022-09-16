@@ -7,8 +7,8 @@ void print_triangle(int size)
 {
 	int m, k, b;
 
-	m = 0
-	k = size - 1
+	m = 0;
+	k = size - 1;
 	while (m < size)
 	{
 		k = size - 1 - m;
