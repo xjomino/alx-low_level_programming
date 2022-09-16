@@ -20,7 +20,7 @@ int main(void)
 		max = 2;
 		k /= 2;
 	}
-	for (b = 3; b <= sqrt(n); b = b + 2)
+	for (b = 3; b <= sqrt(k); b = b + 2)
 	{
 		while (k % b == 0)
 		{
