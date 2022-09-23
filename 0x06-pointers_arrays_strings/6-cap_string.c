@@ -13,7 +13,7 @@ char *cap_string(char *m)
 		'{', '}'};
 	for (k = 0; m[k] != '\0'; k++)
 	{
-		if (k == 0 && m[k] >= 'a' && m[k] <= 'z')
+		if (m[k] >= 'a' && m[k] <= 'z')
 			m[k] = m[k] - 32;
 		for (b = 0; b < 13; b++)
 		{
