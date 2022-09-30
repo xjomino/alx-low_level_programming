@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - print the name of the progarm
+ * main - print name of the progarm
  * @argc: number of arguments
  * @argv: array of arguments
  * Return: Always 0 (success)
