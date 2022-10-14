@@ -1,4 +1,4 @@
-#include ""3-calc.h
+#include "3-calc.h"
 /**
  * get_op_func - select correct operation
  * @s: operator arg
@@ -16,7 +16,7 @@ int (*get_op_func(char *s))(int, int)
 	};
 	int k;
 
-	k = 0
+	k = 0;
 
 	while (ops[k].op)
 	{
