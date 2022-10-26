@@ -14,11 +14,17 @@ int main(void)
 
 	for (k = 1; k <= 50; k++)
 	{
-		printf("%ld, ", a);
+		if (a != 20365011074)
+		{
+			printf("%ld, ", a);
+		}
+		else
+		{
+			printf("%ld\n", a);
+		}
 		results = a + b;
 		a = b;
 		b = results;
 	}
-	printf("\n");
 	return (0);
 }
