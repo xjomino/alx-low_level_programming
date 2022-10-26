@@ -20,5 +20,5 @@ int main(void)
 		b = results;
 	}
 	printf("\n");
+	return (0);
 }
-
